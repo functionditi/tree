@@ -12,7 +12,7 @@ let count = 0;
 function setup() {
   createCanvas(windowWidth, windowHeight);
   let a = createVector(width / 2, height);
-  let b = createVector(width / 2, height - 150);
+  let b = createVector(width / 2, height - 200);
   
   let root = new Branch(a, b);
 
